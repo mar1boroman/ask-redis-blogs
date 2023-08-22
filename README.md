@@ -113,7 +113,7 @@ Once the response it returned, the prompt and response are cached, and more impo
 Now try running the same prompt (or similar prompt again). For e.g. 
 
 ```
-redis triggers and functions
+About Triggers and functions
 ```
 
 You will get the cached response based on the blazingly fast vector similarity search between the prompts embedding and the response that was cached in the previous step.
