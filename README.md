@@ -106,6 +106,7 @@ When you enter this prompt for the first time, the following things will happen
 **This takes a considerably long time, about 30 s**
 
 Hence, we store the response and the prompt in redis.
+Check your RedisInsight in browser and you will see a key created with the prefix **llm_cache**
 
 Once the response it returned, the prompt and response are cached, and more importantly **The prompt is run through [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) and its corresponding embedding is also cached**
 
