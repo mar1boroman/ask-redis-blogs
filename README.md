@@ -40,7 +40,7 @@ Install necessary libraries and dependencies
 pip install -r requirements.txt
 ```
 
-## Step 1: Lets Extract the Blogs from the Redis official website.
+## Step 1: Lets Extract the Blogs from the Redis official website. (Optional)
 
 We have extensive knowledge base at [Redis Blog](https://redis.com/blog/)
 Lets run the first script which is a webscraper, this script will scrape the website and create a CSV file containing the data of all the available blogs.
