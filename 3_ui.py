@@ -74,7 +74,7 @@ def get_responses(results):
 index.connect(get_redis_uri())
 st.title("Blog Recommendation Engine")
 summarize_flag = st.checkbox("Auto-Summarize Blogs (Use LLM Semantic Cache)")
-cache = SemanticCache(redis_url=get_redis_uri(), threshold=0.7)
+cache = SemanticCache(redis_url=get_redis_uri(), threshold=0.6)
 
 # Initialize chat history
 if "messages" not in st.session_state:
