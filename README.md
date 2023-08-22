@@ -121,3 +121,12 @@ We can clearly see the benefits of using Semantic Caching here
 - The time taken to respond to similar queries is reduced exponentially
 - You don't have to go back to the AI model to generate summaries for similar queries. (Save some tokens!)
 - The cached response can serve multiple thousands of concurrent users (Save even more tokens!)
+
+
+## Step 4 (Optional)
+
+A version of the chatbot is available in CLI version
+
+```bash
+python 2_vecsim_redis_blogs.py
+```
