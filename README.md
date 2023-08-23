@@ -74,6 +74,8 @@ streamlit run 3_ui.py
 
 Lets run a simple Vector similarity search over our blogs. 
 
+![Simple Vector Similarity](assets/Simple-Vector-Similarity.png)
+
 **Make sure the 'Auto Summarize' checkbox is unchecked**
 
 Enter a prompt. For e.g.
@@ -88,6 +90,8 @@ In this case, the search happens entirely in redis, except that the prompt is ru
 ### Step 3.2 - Auto Summarize ON
 
 Lets get a little more advanced.
+
+![Simple Vector Similarity](assets/Semantic-Cache.png)
 
 **Make sure the 'Auto Summarize' checkbox is checked**
 
