@@ -2,6 +2,9 @@
 # Talk to Redis Blogs using Redis Vector Similarity & Semantic Caching
 
 We build a chatbot which can summarize and recommend blogs on Redis.com website based on the user query.
+
+![Sneak Peak](assets/ask-redis-blogs.gif)
+
 This small project uses 2 AI models
 - [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2)
 - [BART (large-sized model), fine-tuned on CNN Daily Mail](https://huggingface.co/facebook/bart-large-cnn)
@@ -91,7 +94,7 @@ In this case, the search happens entirely in redis, except that the prompt is ru
 
 Lets get a little more advanced.
 
-![Simple Vector Similarity](assets/Semantic-Cache.png)
+![LLM Semantic Search](assets/Semantic-Cache.png)
 
 **Make sure the 'Auto Summarize' checkbox is checked**
 
