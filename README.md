@@ -52,7 +52,7 @@ Lets run the first script which is a webscraper, this script will scrape the web
 python 0_ext_redis_blogs.py
 ```
 **Note**
-_This repository already has the blogs updated till 22 Aug 2023, running this script will only download the new blogs._
+_This repository already has the blogs updated till 19 September, 2023, running this script will only download the new blogs._
 _The csv file is saved at [redis_blogs.csv](data/redis_blogs.csv)_
 
 ## Step 2: Run the CSV file through [all-mpnet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2)
